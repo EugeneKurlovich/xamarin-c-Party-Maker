@@ -16,9 +16,7 @@ namespace App2
 
         private void OnButtonClicked(object sender, System.EventArgs e)
         {
-            Button button = (Button)sender;
-            button.Text = "ТЫ ПИДОР !!!";
-            button.BackgroundColor = Color.Red;
+            
         }
     }
 }
