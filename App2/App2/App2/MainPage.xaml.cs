@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+
+namespace App2
+{
+	public partial class MainPage : ContentPage
+	{
+		public MainPage()
+		{
+			InitializeComponent();
+		}
+
+        private void OnButtonClicked(object sender, System.EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Text = "ТЫ ПИДОР !!!";
+            button.BackgroundColor = Color.Red;
+        }
+    }
+}

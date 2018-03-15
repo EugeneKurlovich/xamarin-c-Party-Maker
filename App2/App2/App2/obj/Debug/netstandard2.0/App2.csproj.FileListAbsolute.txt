@@ -1,0 +1,11 @@
+C:\Users\Eugene\Desktop\App2\App2\App2\bin\Debug\netstandard2.0\App2.deps.json
+C:\Users\Eugene\Desktop\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll
+C:\Users\Eugene\Desktop\App2\App2\App2\bin\Debug\netstandard2.0\App2.pdb
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.csprojResolveAssemblyReference.cache
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.csproj.CoreCompileInputs.cache
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.App.xaml.g.cs
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.MainPage.xaml.g.cs
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfoInputs.cache
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfo.cs
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.dll
+C:\Users\Eugene\Desktop\App2\App2\App2\obj\Debug\netstandard2.0\App2.pdb
