@@ -3,42 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App2"
              x:Class="App2.MainPage">
-
-    <ScrollView Orientation="Vertical">
-        <StackLayout>
-            <Label Text="Party Maker" FontSize="Large" HorizontalOptions="Center"/>
-            <Label Text="Peoples" ></Label>
-            <Entry Placeholder="Enter the number of people" />
-            <Label Text="Alcohol"></Label>
-            <Picker x:Name="picker1" Grid.Row="0" Title="Select Alcohol" >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Beer</x:String>
-                        <x:String>Vodka</x:String>
-                        <x:String>Wine</x:String>
-                        <x:String>Whiskey</x:String>
-                        <x:String>Mulled Wine</x:String>
-                        <x:String>Tequila</x:String>
-                        <x:String>Kognac</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Label Text="Mode"></Label>
-            <Picker x:Name="picker2" Grid.Row="0" Title="Select Mode">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Easy</x:String>
-                        <x:String>Middle</x:String>
-                        <x:String>Hard</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Button Text="Start" 
-       
-                FontSize="Large"
-                Clicked="OnButtonClicked"/>
-
-        </StackLayout>
-    </ScrollView>
-
+    <StackLayout>
+    <Label Text="Party Maker" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" />
+    <Button Text="Create Party" Clicked="create_Clicked" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </StackLayout>
 </ContentPage>

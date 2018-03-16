@@ -20,6 +20,12 @@
     <Jar>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\9\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\27\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\29\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\30\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\31\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\32\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\33\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\8\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\11\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\12\jl\res</ResolvedResourceDirectory>
@@ -29,10 +35,22 @@
     <ResolvedResourceDirectory>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\17\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\lp\27\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\29\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\30\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\31\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\32\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\33\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\12\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\27.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\29.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\30.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\31.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\32.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\33.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\8.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\11.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\lp\12.stamp</ResolvedResourceDirectoryStamp>

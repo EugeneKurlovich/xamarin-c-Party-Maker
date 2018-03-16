@@ -182,6 +182,8 @@ D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\System.Transactions.p
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\System.Web.Services.pdb
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\System.Xml.Linq.pdb
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\System.Xml.pdb
+D:\Itransition\PM\App2\App2\App2.Android\bin\Debug\SQLite-net.pdb
+D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\SQLite-net.pdb
 D:\Itransition\PM\App2\App2\App2.Android\bin\Debug\App2.Android.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\App2.pdb
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\linksrc\App2.Android.dll.mdb

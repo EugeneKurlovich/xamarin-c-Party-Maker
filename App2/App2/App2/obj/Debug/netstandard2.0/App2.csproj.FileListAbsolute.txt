@@ -20,3 +20,7 @@ D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfoInput
 D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfo.cs
 D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.dll
 D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.pdb
+D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.AlcoholPage.xaml.g.cs
+D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.CreateParty.xaml.g.cs
+D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.SelectAlco.xaml.g.cs
+D:\Itransition\PM\App2\App2\App2\obj\Debug\netstandard2.0\App2.selectMode.xaml.g.cs

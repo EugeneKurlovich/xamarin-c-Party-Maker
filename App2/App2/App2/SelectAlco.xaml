@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.SelectAlco">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Alcohol"></Label>
+            <Picker x:Name="picker1" Grid.Row="0" Title="Select Alcohol" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Beer</x:String>
+                        <x:String>Vodka</x:String>
+                        <x:String>Wine</x:String>
+                        <x:String>Whiskey</x:String>
+                        <x:String>Mulled Wine</x:String>
+                        <x:String>Tequila</x:String>
+                        <x:String>Kognac</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button Text="Ok" Clicked="selectAlc_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -9,12 +9,27 @@ namespace App2
 {
 	public partial class App : Application
 	{
-		public App ()
+        public const string DATABASE_NAME = "alcohol.db";
+        public static AlcoholRepository database;
+        public static AlcoholRepository Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new AlcoholRepository(DATABASE_NAME);
+                }
+                return database;
+            }
+        }
+
+        public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new App2.MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage());
+
+        }
 
 		protected override void OnStart ()
 		{
