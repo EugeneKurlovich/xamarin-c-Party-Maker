@@ -16,5 +16,10 @@ namespace App2
         public string Name { get; set; }
         public string Description { get; set; }
 
+        public void setInfo(string n, string d)
+        {
+            Name = n; Description = d; 
+        }
+
     }
 }

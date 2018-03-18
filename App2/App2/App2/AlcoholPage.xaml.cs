@@ -15,6 +15,7 @@ namespace App2
 
         private  async void getPeoples_Clicked(object sender, EventArgs e)
         {
+            Party.li.Clear();
             int nP = Convert.ToInt32(nPeople.Text);
             Party.numberPeople = nP;
             SelectAlco sA = new SelectAlco();

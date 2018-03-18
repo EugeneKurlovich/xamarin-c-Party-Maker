@@ -15,6 +15,12 @@ namespace App2
             database = new SQLite.SQLiteConnection(databasePath);
             database.CreateTable<Alcohol>();
         }
+
+        public void DeleteA()
+        {
+            database.DeleteAll<Alcohol>();
+        }
+
         public IEnumerable<Alcohol> GetItems()
         {
             return (from i in database.Table<Alcohol>() select i).ToList();

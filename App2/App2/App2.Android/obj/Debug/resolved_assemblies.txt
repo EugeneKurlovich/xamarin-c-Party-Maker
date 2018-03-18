@@ -58,10 +58,12 @@ D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Securit
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Security.SecureString.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Web.Services.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Xml.XPath.XDocument.dll
+D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.ComponentModel.dll
+D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Reflection.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Threading.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Collections.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
-D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Reflection.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Linq.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
@@ -73,8 +75,6 @@ D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Threadi
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Globalization.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Text.Encoding.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.ObjectModel.dll
-D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.ComponentModel.dll
-D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.IO.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 D:\Itransition\PM\App2\App2\App2.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll

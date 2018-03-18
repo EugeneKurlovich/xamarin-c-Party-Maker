@@ -11,7 +11,19 @@ namespace App2
 	{
         public const string DATABASE_NAME = "alcohol.db";
         public static AlcoholRepository database;
-        public static AlcoholRepository Database
+        public static IngrRepository Idatabase;
+        public static IngrRepository IDatabase
+        {   
+            get
+            {
+                if (Idatabase == null)
+                {
+                    Idatabase = new IngrRepository(DATABASE_NAME);
+                }
+                return Idatabase;
+            }
+    }
+    public static AlcoholRepository Database
         {
             get
             {

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App2.AlcoholPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="Center">
             <Label Text="Peoples" ></Label>
             <Entry x:Name="nPeople"  Keyboard="Numeric"  Placeholder="Enter the number of people" />
             <Button Text="Ok"  Clicked="getPeoples_Clicked"/>
