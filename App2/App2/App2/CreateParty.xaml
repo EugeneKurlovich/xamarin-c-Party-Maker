@@ -5,32 +5,33 @@
     
         <ContentPage.Content>
    
-            <StackLayout>
-            <Button Text="Generate" Clicked="getInfo" />
-            <Button Text="Main Page" Clicked="goMainPage" />
+            <StackLayout BackgroundColor="Black">
+            <Button Text="Generate" Clicked="getInfo"  TextColor="Black"/>
+            <Button Text="Main Page" Clicked="goMainPage" TextColor="Black"/>
            
      
-            <Label x:Name="res"></Label>
-           
-        <ListView x:Name="alcoholList" ItemsSource="{Binding}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <ViewCell.View>
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Name}" FontSize="Medium" />
-                                <Label Text="{Binding V}" FontSize="Medium" />
-                            </StackLayout>
-                        </ViewCell.View>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-                <Label x:Name="aN" HorizontalOptions="Center"  FontSize="Large"/>
+            <Label x:Name="res" TextColor="White"></Label>
+
+            <ListView x:Name="alcoholList" ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal" BackgroundColor="Aqua">
+                                    <Label Text="{Binding Name}" FontSize="Medium" />
+                                    <Label Text="{Binding V}" FontSize="Medium" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label x:Name="aN" HorizontalOptions="Center"  FontSize="Large" TextColor="White"/>
             <Image x:Name="iA" />
-            <Label x:Name="rec"  HorizontalOptions="Center"  FontSize="Large"/>
-                <Label x:Name="recD" />
-                <Label x:Name="desc" />
+            <Label x:Name="rec"  HorizontalOptions="Center"  FontSize="Large" TextColor="White"/>
+                <Label x:Name="recD"  TextColor="White"/>
+                <Label x:Name="desc"  TextColor="White"/>
 
 
         </StackLayout>

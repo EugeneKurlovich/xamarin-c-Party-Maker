@@ -19,10 +19,20 @@ namespace App2
 
         private async void selectMode_Clicked(object sender, System.EventArgs e)
         {
-            string sM = picker2.SelectedItem.ToString();
-            Party.mode = sM;
-            CreateParty cP = new CreateParty();
-            await Navigation.PushAsync(cP);
+            try { String sM = picker2.SelectedItem.ToString();
+           
+            if(sM.Length > 0)
+            {
+                Party.mode = sM;
+                CreateParty cP = new CreateParty();
+                await Navigation.PushAsync(cP);
+            }
+            else
+           {
+
+           }
+            }
+            catch { }
         }
         
     }

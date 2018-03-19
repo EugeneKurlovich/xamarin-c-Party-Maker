@@ -35,8 +35,7 @@ namespace App2
                 Party.alc + " в режиме " + Party.mode + " необходимы следующие ингридиенты (МЛ): ";
 
             alcoholList.ItemsSource = Party.li;
-            //rec.Text = "Рецепт одной порции";
-            //op.Text = "Описание";
+
             if (Party.alc.Equals("Piranha Cocktail"))
             {
                 aN.Text = Party.alc;

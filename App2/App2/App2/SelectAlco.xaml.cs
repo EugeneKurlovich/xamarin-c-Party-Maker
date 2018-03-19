@@ -19,10 +19,26 @@ namespace App2
 
         private async void selectAlc_Clicked(object sender, System.EventArgs e)
         {
-            string sA = picker1.SelectedItem.ToString();
-            Party.alc = sA;
-            selectMode sM = new selectMode();
-            await Navigation.PushAsync(sM);
+            try
+            {
+                String sA = picker1.SelectedItem.ToString();
+                if (sA.Length > 0)
+                {
+
+                    Party.alc = sA;
+                    selectMode sM = new selectMode();
+                    await Navigation.PushAsync(sM);
+                }
+                else
+                {
+
+                }
+            }
+            catch
+            {
+
+            }
+           
         }
 
         //private void Cancel(object sender, EventArgs e)

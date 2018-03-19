@@ -28,7 +28,7 @@ namespace App2
             foreach(Ingr a in t)
             {
                 Party.li.Add(a);
-            }
+           }
         }
 
         public IEnumerable<Ingr> GetIngrs(string n)

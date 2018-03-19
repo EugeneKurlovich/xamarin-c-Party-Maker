@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App2.SelectAlco">
+             x:Class="App2.SelectAlco"
+              BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout  VerticalOptions="Center">
-            <Label Text="Alcohol"></Label>
-            <Picker x:Name="picker1" Grid.Row="0" Title="Select Alcohol" >
-                <Picker.ItemsSource>
+        <StackLayout  VerticalOptions="Center" >
+            <Label Text="Alcohol" TextColor="White" HorizontalOptions="Center" FontSize="Large"></Label>
+            <Picker x:Name="picker1" Grid.Row="0" Title="Select Alcohol" BackgroundColor="Aqua" TextColor="Black" >
+                <Picker.ItemsSource >
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Piranha Cocktail</x:String>
                         <x:String>Daiquiri Cocktail</x:String>
@@ -16,7 +17,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Button Text="Ok" Clicked="selectAlc_Clicked" />
+            <Button Text="Ok" Clicked="selectAlc_Clicked" TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

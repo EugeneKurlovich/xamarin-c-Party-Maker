@@ -16,10 +16,18 @@ namespace App2
         private  async void getPeoples_Clicked(object sender, EventArgs e)
         {
             Party.li.Clear();
+            
             int nP = Convert.ToInt32(nPeople.Text);
-            Party.numberPeople = nP;
-            SelectAlco sA = new SelectAlco();
-            await Navigation.PushAsync(sA);
+            if (nP > 0)
+            {
+                Party.numberPeople = nP;
+                SelectAlco sA = new SelectAlco();
+                await Navigation.PushAsync(sA);
+           }
+           else
+           {
+
+           }
         }
         //private void DeleteAlcohol(object sender, EventArgs e)
         //{

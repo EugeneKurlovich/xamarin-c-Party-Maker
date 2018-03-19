@@ -64,7 +64,7 @@ namespace App2
         public void createCoctail()
         {
             
-            foreach (Ingr i in li)
+            foreach (Ingr i in Party.li)
             {
                 i.V = i.V * Party.numberPeople;
                 if (Party.mode.Equals("Hard"))
